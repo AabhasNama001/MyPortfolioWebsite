@@ -622,7 +622,7 @@ body {
 #footer {
     position: relative;
     height: 127vh;
-    background-color: #253B39;
+    background-color: #172524;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -669,7 +669,7 @@ body {
     background-color: #ffffff;
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0);
-    transition: transform 0.4s ease;
+    transition: transform 1.4s ease;
     z-index: 0;
 }
 
@@ -1019,14 +1019,14 @@ label {
         font-size: 10vw;
     }
 
-    .skill-container-right {
+    /* .skill-container-right {
         width: 75vw;
         display: flex;
         flex-wrap: wrap;
         gap: 12.5vw;
         position: relative;
         justify-content: center;
-    }
+    } */
 
     #footer {
         height: 60vh;
@@ -1087,6 +1087,15 @@ label {
     #copyright p {
         font-size: 2vw;
     }
+
+    .skill-container-right {
+        width: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8.5vw;
+        position: relative;
+        justify-content: center;
+    }
 }
 
 @media (max-width:540px) {
@@ -1096,6 +1105,15 @@ label {
 
     #footer {
         height: 60vh;
+    }
+
+    .skill-container-right {
+        width: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8.5vw;
+        position: relative;
+        justify-content: center;
     }
 
 }
@@ -1117,6 +1135,15 @@ label {
         width: 80vw;
         height: 30vh;
     }
+
+    .skill-container-right {
+        width: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8.5vw;
+        position: relative;
+        justify-content: center;
+    }
 }
 
 @media (max-width:400px) {
@@ -1131,6 +1158,15 @@ label {
     #footer {
         height: 40vh;
     }
+
+    .skill-container-right {
+        width: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8.5vw;
+        position: relative;
+        justify-content: center;
+    }
 }
 
 @media (max-width:350px) {
@@ -1144,6 +1180,15 @@ label {
 
     #footer {
         height: 30vh;
+    }
+
+    .skill-container-right {
+        width: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8.5vw;
+        position: relative;
+        justify-content: center;
     }
 }
 
